@@ -30,12 +30,12 @@
   <header class="flex flex-wrap p-8 bg-greensky justify-between">
     <h1 class="text-4xl p-4 font-bold text-white"><span class="text-darkgreen">R</span>esume</h1>
     <nav class="w-[600px] text-lg font-medium">
-      <ul class="flex justify-between text-white">
-        <li class="border-2 border-white rounded-2xl p-4 hover:bg-darkgreen cursor-pointer"><a>About</a></li>
-        <li class="border-2 border-white rounded-2xl p-4 hover:bg-darkgreen cursor-pointer"><a>Project</a></li>
-        <li class="border-2 border-white rounded-2xl p-4 hover:bg-darkgreen cursor-pointer"><a>Degree & Awards</a>
+      <ul class="flex justify-between text-white mt-3">
+        <li class="border-2 border-white rounded-md p-2 hover:bg-darkgreen cursor-pointer"><a>About</a></li>
+        <li class="border-2 border-white rounded-md p-2 hover:bg-darkgreen cursor-pointer"><a>Project</a></li>
+        <li class="border-2 border-white rounded-md p-2 hover:bg-darkgreen cursor-pointer"><a>Degree & Awards</a>
         </li>
-        <li class="border-2 border-white rounded-2xl p-4 hover:bg-darkgreen cursor-pointer"><a>Contact</a></li>
+        <li class="border-2 border-white rounded-md p-2 hover:bg-darkgreen cursor-pointer"><a>Contact</a></li>
       </ul>
     </nav>
   </header>
@@ -43,10 +43,10 @@
   <main>
 
     <section class="p-8">
-      <h2 class="text-4xl text-darkgray font-bold mb-20 ml-4">About</h2>
+      <h2 class="text-center text-4xl text-darkgray font-bold mb-20 ml-4">About</h2>
       <div class="flex justify-center items-center">
         <img class="inline-block rounded-full h-[400px]" src="images/profile.jpeg" alt="ProfileImage">
-        <p class=" text-darkgray ml-20 text-2xl ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro
+        <p class=" text-darkgray ml-20 text-lg ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro
           consequatur
           exercitationem, dicta officiis
           perferendis cum nam eos illum totam obcaecati, non nihil quia soluta veritatis tenetur necessitatibus natus.
@@ -55,16 +55,72 @@
           corporis minima, impedit reiciendis cum facere, quaerat voluptatibus expedita vitae qui sapiente perferendis
           autem officiis rerum quae.
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci nostrum optio rerum. Itaque est assumenda
-          fuga officia, esse quos quas id nihil delectus? Delectus assumenda autem possimus nisi! Distinctio, harum?</p>
+          fuga officia, esse quos quas id nihil delectus? Delectus assumenda autem possimus nisi! Distinctio, harum?
+          1만시간의법칙(1일), 벤딩머신(2일), 렌딩페이지(3일), 감귤마켓(1주일) + 개인 프로젝트 2건</p>
         <p>
         </p>
       </div>
     </section>
 
+    <section class="p-8 bg-darkgreengray">
+      <section class="max-w-[960px] m-auto">
+        <h2 class="text-center text-4xl text-white font-bold mb-20 ml-4">Projects</h2>
+
+        <ul class="flex flex-wrap justify-center gap-2 ">
+          <li class="relative w-[300px] h-[300px] rounded-md text-center flex items-center justify-center bg-lightgray">
+            <a href="">
+              <img src="images/1만시간의법칙.png" alt="">
+            </a>
+            <div class="bg-black opacity-80 absolute text-orange-500 w-[300px]">
+              1만시간의법칙<br>
+              2022.09.03-2022.09.04
+            </div>
+          </li>
+          <li
+            class=" relative w-[300px] h-[300px] rounded-md text-center flex items-center justify-center bg-lightgray">
+            <a href="">
+              <img src="images/감귤마켓" alt="">
+            </a>
+            <div class="bg-black opacity-80 absolute text-orange-500 w-[300px]">
+              감귤마켓<br>
+              2022.12.01-2022.01.08
+            </div>
+          </li>
+          <li class="relative w-[300px] h-[300px]rounded-md text-center flex items-center justify-center bg-lightgray">
+            <a href="">
+              <img src="images/밴딩머신.png" alt="">
+            </a>
+            <div class="bg-black opacity-80 absolute text-orange-500 w-[300px]">
+              밴딩머신<br>
+              2022.09.20-2022.09.22
+            </div>
+          </li>
+          <li class="relative w-[300px] h-[300px] rounded-md text-center flex items-center justify-center bg-lightgray">
+            <a class="text-center" href="">
+              <img class="max-w-[100%] max-h-[100%]" src="images/낚시대.jpeg" alt="">
+            </a>
+            <div class="bg-black opacity-80 absolute text-orange-500 w-[300px]">
+              라즈베리파이를 이용한 낚시대 제작<br>
+              2022.05.14-2022.06.20
+            </div>
+          </li>
+          <li
+            class="relative w-[300px] h-[300px] rounded-md text-center flex items-center justify-center bg-lightgray after::">
+            <a class="" href="">
+              <img class="max-w-[300px] max-h-[300px]" src="images/지도화면.png" alt="">
+            </a>
+            <div class="bg-black opacity-80 absolute text-orange-500 w-[300px]">
+              어플리케이션 화면 개발<br>
+              2022.07.30-2022.8.15
+            </div>
+          </li>
+        </ul>
+      </section>
+    </section>
+
     <section>
 
     </section>
-
   </main>
 
   <footer>
